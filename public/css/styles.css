@@ -1,0 +1,98 @@
+h1 {
+    color: royalblue;
+    font-size: 64px;
+    margin-bottom: 16px;    
+}
+
+body {
+    color: #333333;
+    max-width: 650px;
+    margin: 0 auto;
+    padding: 0 16px;
+    background-image: url("backg-img.webp");
+    
+    /*For own description at bottom*/
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh
+    
+}
+
+.main-content {
+    flex-grow: 1;
+}
+ 
+footer {
+    color: #888888;
+    border-top: 1px solid #eeeeee;
+    margin-top:16px;
+    padding: 4px 0;
+}
+
+/* Navigation Bar*/
+header ul {
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 40px;
+    overflow: hidden;
+    background-color: #f3f3f3;
+    font-size: 110%;
+
+}
+header li {
+    float: left;
+}
+  
+header li a {
+    display: block;
+    color: #666;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #ddd on hover */
+header li a:hover {
+    background-color:#ddd;;
+}
+
+.potrait {
+    width : 180px;
+    float: left;
+    margin-right:15px;    
+}
+
+/*search styles*/
+form input {
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    padding: 12px 20px 12px 40px;
+    font-size: 16px;
+    background-image: url('search.png');
+    background-position: 10px 12px;
+    background-size: 20px;
+    background-repeat: no-repeat; 
+    font-family: Arial, Helvetica, sans-serif;  
+}
+
+form button {
+    border: 2px solid a3a3c2;
+    border-radius: 4px;
+    padding: 10px 10px 10px 10px;
+    margin-left: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+}
+
+div .mssge {
+    color: #f3f3f3;
+    font-size: 150%;
+}
+
+
+
+
+
+
+
+
